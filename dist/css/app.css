@@ -8,6 +8,40 @@ body {
   font-family: "Mulish", sans-serif;
 }
 
+h1 {
+  font-weight: lighter;
+  display: inline;
+}
+
 .italics {
   font-family: "Playfair Display", serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* top menu */
+#top_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+#top_menu #r_menu {
+  display: flex;
+  align-items: center;
+}
+#top_menu ul a {
+  font-size: 13px;
+  margin: 0px 30px 0px 30px;
+  font-weight: bold;
+}
+#top_menu ul a:hover {
+  background: linear-gradient(to bottom, #ffffff 50%, #e1c0b0 50%);
+}
+#top_menu #dot_menu {
+  width: 25px;
+  margin-left: 20px;
 }

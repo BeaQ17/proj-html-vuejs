@@ -8,6 +8,16 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
+h1{
+    font-weight: lighter;
+    display: inline;
+}
+
 .italics{
     font-family: 'Playfair Display', serif;
+}
+
+a{
+    text-decoration: none;
+    color: $link_color;
 }
