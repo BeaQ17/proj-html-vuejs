@@ -21,3 +21,16 @@ a{
     text-decoration: none;
     color: $link_color;
 }
+
+.fas{
+    color: $bg_color;
+    font-size: 30px;
+}
+
+.btn{
+    font-family: 'Mulish', sans-serif;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    font-size: 12px;
+    font-weight: bold;
+}

@@ -22,6 +22,19 @@ a {
   color: black;
 }
 
+.fas {
+  color: #e1c0b0;
+  font-size: 30px;
+}
+
+.btn {
+  font-family: "Mulish", sans-serif;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
 /* top menu */
 #top_menu {
   display: flex;
@@ -44,4 +57,47 @@ a {
 #top_menu #dot_menu {
   width: 25px;
   margin-left: 20px;
+}
+
+/* jumbotron */
+.jumbotron-slideshow {
+  display: flex;
+  flex-direction: row;
+}
+.jumbotron-slideshow .prev, .jumbotron-slideshow .next {
+  margin: 0px 30px 0px 30px;
+  display: flex;
+  align-items: center;
+}
+.jumbotron-slideshow .pics {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+}
+.jumbotron-slideshow .pics .hero_title, .jumbotron-slideshow .pics .hero_img {
+  width: 50%;
+}
+.jumbotron-slideshow .pics .hero_title {
+  padding-left: 150px;
+}
+.jumbotron-slideshow .pics .hero_title h1 {
+  font-size: 4rem;
+}
+.jumbotron-slideshow .pics .hero_title p {
+  line-height: 25px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.jumbotron-slideshow .pics .hero_title .hero_btn {
+  border: 2px solid #e1c0b0;
+  background-color: transparent;
+}
+.jumbotron-slideshow .pics .hero_title .hero_btn:hover {
+  background-color: #e1c0b0;
+}
+.jumbotron-slideshow .pics .hero_img .first_img {
+  width: 40%;
+}
+.jumbotron-slideshow .pics .hero_img .second_img {
+  width: 100%;
 }

@@ -38,13 +38,39 @@
         </nav>
 
         <!-- jumbotron -->
-        <div class="jumbotron-slideshow">
-            <div class="pics">
-                <img src="" alt="" srcset="">
-            </div>
+        <div class="jumbotron-slideshow" id="slideshow">
+            <!-- prev button -->
+            <div class="prev" @click="slidePrev"><i class="fas fa-chevron-circle-left"></i></div>
+            <!-- first slide --> <!--
+            <div class="pics" id="first_div" >
+                <div class="hero_title">
+                    <h1>Devotion that never <h1 class="italics">ends</h1></h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Vero rerum ipsum officia molestiae voluptas lorem ipsum 
+                        dolor.</p>
+                    <button class="hero_btn btn"><a href="#">read more</a></button>
+                </div>
+                <div class="hero_img">
+                    <img src="./src/imgs/h-2-slider-img-15.png" alt="skating girl" class="first_img">
+                    <img src="./src/imgs/h-2-slider-img-16.png" alt="skating boy" class="first_img">
+                </div>
+            </div> -->
+            <!-- second slide --> 
+            <div class="pics" id="second_div">
+                <div class="hero_title">
+                    <h1>Our new folio full of <h1 class="italics">joy</h1></h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Vero rerum ipsum officia molestiae voluptas lorem ipsum 
+                        dolor.</p>
+                    <button class="hero_btn btn"><a href="#">read more</a></button>
+                </div>
+                <div class="hero_img">
+                    <img src="./src/imgs/h-2-slider-img-11.png" alt="high five" class="second_img">
+                </div>
+            </div>  
+            <!-- next button -->
+            <div class="next" @click="slideNext"><i class="fas fa-chevron-circle-right"></i></div>
         </div>
-
-        <!-- <h1>Devotion that never <h1 class="italics">ends</h1></h1> --> 
     </header>
 
     <main id="site_main">
@@ -57,5 +83,9 @@
     <footer id="site_footer"></footer>
 
     <script src="./dist/js/app.js"></script>
+
+
+    <!-- VueJS -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
 </body>
 </html>
