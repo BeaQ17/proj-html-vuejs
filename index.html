@@ -31,7 +31,9 @@
                     <a href="#">SHOP</a>
                     <a href="#">ELEMENTS</a>
                 </ul>
-                <img id="dot_menu" src="./src/imgs/dot_menu.png" alt="dot menu">
+                <!-- nine dots menu -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23"><circle cx="3" cy="20.1" r="2"/><circle cx="11.7" cy="20.1" r="2"/><circle cx="20.2" cy="20.1" r="2"/><circle cx="3" cy="2.9" r="2"/><circle cx="11.7" cy="2.9" r="2"/><circle cx="20.2" cy="2.9" r="2"/><circle cx="3" cy="11.4" r="2"/><circle cx="11.7" cy="11.4" r="2"/><circle cx="20.2" cy="11.4" r="2"/></svg>
+
             </div>
             
 
@@ -74,50 +76,98 @@
     </header>
 
     <main id="site_main">
-        <section id="gallery"></section>
-        <section id="process"></section>
-        <section id="message"></section>
-        <section id="blog"></section>
+        <!-- card gallery -->
+        <section id="gallery">
+            <!-- fe -->
+            <div class="card fe">
+                <img src="./src/imgs/h-2-port-img-1.jpg" alt="fe img">
+            </div>
+            <!-- bike -->
+            <div class="card fe">
+                <img src="./src/imgs/h-2-port-img-2.jpg" alt="fe img">
+            </div>
+            <!-- yellow a -->
+            <div class="card fe">
+                <img src="./src/imgs/h-2-port-img-3.jpg" alt="fe img">
+            </div>
+            <!-- book -->
+            <div class="card fe">
+                <img src="./src/imgs/h-2-port-img-4.jpg" alt="fe img">
+            </div>
+            <!-- phone -->
+            <div class="card fe">
+                <img src="./src/imgs/h-2-port-img-5.jpg" alt="fe img">
+            </div>
+            <!-- girl -->
+            <div class="card fe">
+                <img src="./src/imgs/h-2-port-img-6.jpg" alt="fe img">
+            </div>
+        </section>
+        <!-- working process -->
+        <section id="process">
+            <div class="container center">
+                <h1>Working<h1 class="italics">process</h1></h1>
+            </div>
+        </section>
+
+        <!-- send us a msg -->
+        <section id="message">
+            <div class="container center">
+                
+            </div>
+        </section>
+
+        <!-- blog gallery -->
+        <section id="blog">
+            <div class="container">
+                
+            </div>
+        </section>
     </main>
 
+    <!-- footer -->
     <footer id="site_footer">
         <div class="container">
+            <!-- logo -->
             <div class="f_section">
                 <ul>
                     <li><img src="./src/imgs/logo-sidearea-1.png" alt=""></li>
                     <li><p class="smaller">Let's Get Creative</p></li>
                 </ul>
             </div>
+            <!-- contacts -->
            <div class="f_section">
                <ul>
                    <li><p class="smaller">maree.qode@gmail.com</p></li>
                    <li><p class="smaller">+44645 321 789</p></li>
                </ul>
            </div>
+           <!-- address -->
            <div class="f_section">
                 <ul>
                     <li><p class="smaller">Avenue d'Auderghem 10</p></li>
                     <li><p class="smaller">1040 Brussels, Belgium</p></li>
                 </ul>
             </div>
+            <!-- social -->
             <div class="f_section">
                 <ul>
                     <li><p class="smaller">Stay in touch with us</p></li>
                     <li id="social">
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-pinterest-p"></i>
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-linkedin-in"></i>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </li>
                 </ul>
             </div>
         </div>
     </footer>
 
-    <script src="./dist/js/app.js"></script>
-
-
+    
     <!-- VueJS -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <!-- JS -->
+    <script src="./dist/js/app.js"></script>
 </body>
 </html>

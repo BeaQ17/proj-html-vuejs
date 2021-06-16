@@ -1,0 +1,12 @@
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+
+    .card{
+        width: calc(100% / 3);
+
+        img{
+            width: 100%;
+        }
+    }
+}
