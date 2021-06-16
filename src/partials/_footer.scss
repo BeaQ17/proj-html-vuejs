@@ -1,0 +1,18 @@
+footer{
+    background-color: $bg_color_green;
+
+    ul{
+        list-style: none;
+    }
+
+    .f_section{
+        margin-right: 100px;
+
+        #social{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+            
+    }
+}

@@ -22,8 +22,8 @@ a{
     color: $link_color;
 }
 
-.fas{
-    color: $bg_color;
+.brown_i{
+    color: $bg_color_lbrown;
     font-size: 30px;
 }
 
@@ -33,4 +33,17 @@ a{
     padding: 15px 30px;
     font-size: 12px;
     font-weight: bold;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0px 50px 0px;
+}
+
+.smaller{
+    font-size: 12px;
+    margin-top: 10px;
 }

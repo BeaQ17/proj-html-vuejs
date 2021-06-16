@@ -21,7 +21,7 @@
 
         <!-- navbar + logo -->
         <nav id="top_menu">
-            <img src="./src/imgs/logo-sidearea-1.png" alt="maree logo" id="logo">
+            <a href="#"><img src="./src/imgs/logo-sidearea-1.png" alt="maree logo" id="logo"></a>
             <div id="r_menu">
                 <ul>
                     <a href="#">HOME</a>
@@ -31,7 +31,7 @@
                     <a href="#">SHOP</a>
                     <a href="#">ELEMENTS</a>
                 </ul>
-                <img id="dot_menu" src="./src/imgs/dot_menu.png" alt="">
+                <img id="dot_menu" src="./src/imgs/dot_menu.png" alt="dot menu">
             </div>
             
 
@@ -40,7 +40,7 @@
         <!-- jumbotron -->
         <div class="jumbotron-slideshow" id="slideshow">
             <!-- prev button -->
-            <div class="prev" @click="slidePrev"><i class="fas fa-chevron-circle-left"></i></div>
+            <div class="prev" @click="slidePrev"><i class="fas fa-chevron-circle-left brown_i"></i></div>
             <!-- first slide --> <!--
             <div class="pics" id="first_div" >
                 <div class="hero_title">
@@ -69,7 +69,7 @@
                 </div>
             </div>  
             <!-- next button -->
-            <div class="next" @click="slideNext"><i class="fas fa-chevron-circle-right"></i></div>
+            <div class="next" @click="slideNext"><i class="fas fa-chevron-circle-right brown_i"></i></div>
         </div>
     </header>
 
@@ -80,7 +80,39 @@
         <section id="blog"></section>
     </main>
 
-    <footer id="site_footer"></footer>
+    <footer id="site_footer">
+        <div class="container">
+            <div class="f_section">
+                <ul>
+                    <li><img src="./src/imgs/logo-sidearea-1.png" alt=""></li>
+                    <li><p class="smaller">Let's Get Creative</p></li>
+                </ul>
+            </div>
+           <div class="f_section">
+               <ul>
+                   <li><p class="smaller">maree.qode@gmail.com</p></li>
+                   <li><p class="smaller">+44645 321 789</p></li>
+               </ul>
+           </div>
+           <div class="f_section">
+                <ul>
+                    <li><p class="smaller">Avenue d'Auderghem 10</p></li>
+                    <li><p class="smaller">1040 Brussels, Belgium</p></li>
+                </ul>
+            </div>
+            <div class="f_section">
+                <ul>
+                    <li><p class="smaller">Stay in touch with us</p></li>
+                    <li id="social">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
     <script src="./dist/js/app.js"></script>
 

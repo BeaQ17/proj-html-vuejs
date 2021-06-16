@@ -22,7 +22,7 @@ a {
   color: black;
 }
 
-.fas {
+.brown_i {
   color: #e1c0b0;
   font-size: 30px;
 }
@@ -33,6 +33,19 @@ a {
   padding: 15px 30px;
   font-size: 12px;
   font-weight: bold;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 50px 0px 50px 0px;
+}
+
+.smaller {
+  font-size: 12px;
+  margin-top: 10px;
 }
 
 /* top menu */
@@ -100,4 +113,19 @@ a {
 }
 .jumbotron-slideshow .pics .hero_img .second_img {
   width: 100%;
+}
+
+footer {
+  background-color: #d8f0e3;
+}
+footer ul {
+  list-style: none;
+}
+footer .f_section {
+  margin-right: 100px;
+}
+footer .f_section #social {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }
