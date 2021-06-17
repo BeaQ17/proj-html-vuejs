@@ -70,6 +70,7 @@ header{
             .hero_btn{
                 border: 2px solid $bg_color_lbrown;
                 background-color: transparent;
+                visibility: hidden;
             }
 
             .hero_btn:hover{

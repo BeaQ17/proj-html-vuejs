@@ -1,37 +1,37 @@
 //alert("test alert")
 
-//jumbotron slideshow
-const slideshow = new Vue ({
-    el: "#slideshow",
-    data: {
-        counter: 0,
-        divs: [
-            "#first_div",
-            "#second_div"
-        ]
+//const { vue } = require("laravel-mix");
 
+//jumbotron slideshow
+const slideshow = new Vue({
+    el: "#slideshow",
+
+    data:{
+        counter: 0,
+        imgs: [
+            "../src/imgs/first_slide.png",
+            "../src/imgs/second_slide.png"
+        ]
     },
-    methods: {
-        slidePrev(){
-            console.log("you clicked prev");
-            
+
+    methods:{
+        prev(){
+            //console.log("clicked prev");
             if(this.counter === 0){
-                return this.divs.length - 1;
+                return this.imgs.length - 1; 
             }
             return this.counter -= 1;
+
         },
-        slideNext(){
-            console.log("you clicked next");
-            if (this.counter === this.divs.length - 1) {
+        next(){
+            //console.log("clicked next");
+            if(this.counter === this.imgs.length - 1){
                 return this.counter = 0;
             }
-            return this.counter += 1;
+            return this.counter += 1
+        },
+        mounted(){
+            setInterval(this.next, 7000)
         }
-    },
-    mounted(){
-
-        //slide interval
-        setInterval(this.next, 6000)
-
     }
-}) 
+})
