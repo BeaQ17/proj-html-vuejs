@@ -14,7 +14,12 @@ var slideshow = new Vue({
   el: "#slideshow",
   data: {
     counter: 0,
-    imgs: ["../src/imgs/first_slide.png", "../src/imgs/second_slide.png"]
+    imgs: [
+      /*
+      "../src/imgs/first_slide.png",
+      "../src/imgs/second_slide.png"
+      */
+    ]
   },
   methods: {
     prev: function prev() {

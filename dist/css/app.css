@@ -127,7 +127,6 @@ header {
 .jumbotron_slideshow .pics .hero_title .hero_btn {
   border: 2px solid #e1c0b0;
   background-color: transparent;
-  visibility: hidden;
 }
 .jumbotron_slideshow .pics .hero_title .hero_btn:hover {
   background-color: #e1c0b0;
