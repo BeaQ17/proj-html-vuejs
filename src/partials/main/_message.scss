@@ -1,0 +1,14 @@
+#message{
+    background-color: $bg_color_msg;
+    
+
+    p{
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    button{
+        background-color: $bg_color_green;
+        border: none;
+    }
+}
