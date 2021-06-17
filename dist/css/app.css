@@ -180,6 +180,44 @@ header {
   border: none;
 }
 
+.post {
+  width: calc(100% /3);
+  margin: 0px 10px;
+}
+.post .date {
+  position: absolute;
+  margin-top: -1%;
+  width: 65px;
+  margin-left: 20px;
+}
+.post .date .day {
+  background-color: #d8f0e3;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0px 6px 5px 6px;
+  width: 100%;
+}
+.post .date .month_year {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+  margin-right: 0px;
+  width: 100%;
+  background-color: #f3d0c7;
+}
+.post .post_pic img {
+  max-width: 100%;
+}
+.post .post_text h3 {
+  font-weight: lighter;
+  margin: 15px 0px;
+}
+.post .post_text p {
+  font-family: "Playfair Display", serif;
+}
+
 footer {
   background-color: #d8f0e3;
 }
