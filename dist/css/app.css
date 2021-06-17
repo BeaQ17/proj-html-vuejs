@@ -8,7 +8,7 @@ body {
   font-family: "Mulish", sans-serif;
 }
 
-h1 {
+h1, h2 {
   font-weight: lighter;
   display: inline;
 }
@@ -141,12 +141,24 @@ header {
 #gallery {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 60px;
 }
 #gallery .card {
   width: calc(100% / 3);
+  display: flex;
 }
 #gallery .card img {
   width: 100%;
+}
+#gallery .card:hover .description {
+  background-color: white;
+  padding: 20px;
+  position: absolute;
+  margin-left: 0px;
+  align-self: center;
+}
+#gallery .card:hover .description p {
+  font-family: "Playfair Display", serif;
 }
 
 #process #steps_container img {

@@ -1,12 +1,35 @@
 #gallery{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 60px;
 
     .card{
         width: calc(100% / 3);
+        display: flex;
 
         img{
             width: 100%;
         }
+
+        
     }
+
+
+    .card:hover{
+
+        .description{
+            background-color: white;
+            padding: 20px;
+            position: absolute;
+            margin-left: 0px;
+            align-self: center;
+
+            p{
+                font-family: 'Playfair Display', serif;
+            }
+            
+        }
+
+    }
+        
 }
